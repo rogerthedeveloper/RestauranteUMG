@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE5EDDBB-5ACA-B2E8-3CBE-3AA27146A71D" name="mesa_ubicacion">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>1EA93BF5-234D-EFDD-9734-928CFDDDC28C</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1C35AC14-EA91-3CC8-B6BE-1F284DAD3DF2">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>11C4ADE5-5227-9A54-EBA1-579F6C403449</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="7D6467A4-2215-4A1F-FCA5-F153C59788F8">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>C5494D31-5FDE-042D-527B-3FA40C282B25</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94F46E1F-22B7-32FE-F5EB-545948DC3E47" name="mesa_ubicacion_PK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>EECB3B0B-FBB1-C547-2B50-9BEEFE2A27E0</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C35AC14-EA91-3CC8-B6BE-1F284DAD3DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

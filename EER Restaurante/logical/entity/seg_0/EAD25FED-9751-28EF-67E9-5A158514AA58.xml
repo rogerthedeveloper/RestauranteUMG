@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAD25FED-9751-28EF-67E9-5A158514AA58" name="estado_orden">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:13:42 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="310D72F0-CD8B-205D-E2B2-1E74C134AC0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E5388E27-82B2-CB05-EB94-BFBDFACD4DFD">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:13:42 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="310D72F0-CD8B-205D-E2B2-1E74C134AC0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E03BB8B6-7EF8-3A27-2A6C-50FBBE979F30">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:13:42 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="310D72F0-CD8B-205D-E2B2-1E74C134AC0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0E7C5C0-165C-21FD-C0CF-0EDE0A7F05DC" name="estado PK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:13:42 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="310D72F0-CD8B-205D-E2B2-1E74C134AC0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5388E27-82B2-CB05-EB94-BFBDFACD4DFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

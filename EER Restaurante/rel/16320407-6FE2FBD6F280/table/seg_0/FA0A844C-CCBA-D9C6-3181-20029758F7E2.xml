@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA0A844C-CCBA-D9C6-3181-20029758F7E2" name="orden_detalle">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>8F42AD2A-FB4E-AC01-D8AA-A4CEA58425A2</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mesa_orden_id" id="AE463B83-05CE-02A6-5268-CC0FF095EEEE">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>FA14AC0F-8494-8DAF-7194-2C8413925D3D</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EA13ACB-4D9E-F29D-951F-05721CC1E274" referredColumn="B23CF6A4-488E-8413-56A8-4031C69C2AEF"/>
+</associations>
+</Column>
+<Column name="consumicion_restaurante_id" id="88923229-38FB-E840-B5E7-DD1B9CCDF060">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>496C8DA9-F0F5-4903-775A-5305EDCE7911</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89A524ED-23BF-34EA-3FF0-FFB18BCFD4CF" referredColumn="5482A619-5053-8E6F-A782-4B16AA08FFB2"/>
+</associations>
+</Column>
+<Column name="consumicion_id" id="CFAA5401-0628-B3CA-4B25-1854B4B27259">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>24BC5621-A042-E239-17FF-3471B6907EEB</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89A524ED-23BF-34EA-3FF0-FFB18BCFD4CF" referredColumn="9E352FE6-9A5A-25AC-C695-79D9B6ADA209"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDB889ED-AA8B-8636-19C3-7873B1825B9E" name="orden_detalle_mesa_orden_FK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>3D91FA48-8143-61F5-83BB-7E841638C2C7</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE463B83-05CE-02A6-5268-CC0FF095EEEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F40D834-99BE-C11A-EEDD-E7125AA9F316" name="orden_detalle_consumicion_FK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>2D2D460F-AC84-AC31-57F4-0FFB01508D22</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFAA5401-0628-B3CA-4B25-1854B4B27259"/>
+<colUsage columnID="88923229-38FB-E840-B5E7-DD1B9CCDF060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

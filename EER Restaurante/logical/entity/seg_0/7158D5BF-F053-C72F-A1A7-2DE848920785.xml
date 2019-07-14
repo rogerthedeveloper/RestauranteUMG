@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7158D5BF-F053-C72F-A1A7-2DE848920785" name="mesa_reserva">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:37:43 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="31933EEF-FEF5-47E2-D4FE-676E1E5A482A">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:37:56 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="6B963EDC-76F1-AC68-C74C-C213155FC0FF">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-05-31 17:34:25 UTC</createdTime>
+<generatorID>6976C76A-C64F-0390-A63F-B817C9FDD8EB</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>FED72471-C01B-48B2-5D79-6BFB3674179D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="36CB01ED-33EB-0EBE-6213-A44EE95BA916">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-05-31 17:31:21 UTC</createdTime>
+<generatorID>C894EBA8-0508-68A3-3413-95A7B21EB25A</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>0B69DD14-AF54-75FE-D6A8-56356754E50C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id21" id="0568719C-D52A-12F4-65F6-5CA1EE28167E">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-04 15:04:33 UTC</createdTime>
+<generatorID>6C35D1E0-B6B3-B90D-9926-FE165F83D943</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>1B38DCE8-902D-11A7-C0B6-2F95955C7DDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="01945114-6691-2709-E49F-3F849536AE67">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-05-31 17:36:33 UTC</createdTime>
+<generatorID>6C35D1E0-B6B3-B90D-9926-FE165F83D943</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>03D6E332-F396-FA5A-FEAC-D6EE935788CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="39589AC9-C349-83D8-CD61-31CB7861B0AC">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:37:58 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4167546-201C-E432-5925-3C819929C5B3" name="mesa_reserva PK">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:40:32 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31933EEF-FEF5-47E2-D4FE-676E1E5A482A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

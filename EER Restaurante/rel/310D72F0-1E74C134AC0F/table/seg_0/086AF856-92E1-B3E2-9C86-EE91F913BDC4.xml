@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="086AF856-92E1-B3E2-9C86-EE91F913BDC4" name="almacen">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>936539F8-0204-80C6-F47D-744F44F3643F</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ingrediente_id" id="63AF0D26-0609-6BF5-A3D3-E016840B4E31">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>D89E104F-6468-7968-8688-AB3BBDA10955</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="restaurante_id" id="292BB602-8033-9341-808E-4AE678F54633">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>B30B2CD6-7FAC-6667-1C5E-4134E4C321D6</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBCEDD94-C7BA-7204-74D5-3D5AECD8CBB7" referredColumn="A07A9A16-35DF-95A4-BE43-8BEA748E9189"/>
+</associations>
+</Column>
+<Column name="nombre" id="39CECD94-F8BC-FA11-6575-0E293BC42725">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>45299261-3244-5D6C-3EBC-3C997D39E9D6</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="AFFDEEB7-3047-931E-6867-E37CF62172AD">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>2C8E9B17-EC88-5947-5408-F993678F645E</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDA14CBE-CCF4-96CF-D8BC-21F8F5BDB9D5" name="almacen_PK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>605FCB0E-CC6C-CF68-63F3-C1D166581271</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63AF0D26-0609-6BF5-A3D3-E016840B4E31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8509F5C-B41F-5CAD-D970-010D1F85F059" name="almacen_restaurante_FK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 20:16:51 UTC</createdTime>
+<generatorID>143934BB-00BC-1019-DBA5-2B10B75785B9</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="292BB602-8033-9341-808E-4AE678F54633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

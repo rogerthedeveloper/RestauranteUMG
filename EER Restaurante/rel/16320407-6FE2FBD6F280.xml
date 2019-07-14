@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="16320407-191F-452E-BD4B-6FE2FBD6F280" mainViewID="0A5E7829-30B5-5807-0A89-CC1D387C62BE">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:11 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

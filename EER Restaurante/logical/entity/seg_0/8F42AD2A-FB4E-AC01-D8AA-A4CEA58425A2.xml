@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F42AD2A-FB4E-AC01-D8AA-A4CEA58425A2" name="orden_detalle">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:26:18 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FA14AC0F-8494-8DAF-7194-2C8413925D3D">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:26:45 UTC</createdTime>
+<generatorID>3D91FA48-8143-61F5-83BB-7E841638C2C7</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<referedAttribute>B62BBEC4-93AF-3EA6-F84D-724652EB5B83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="24BC5621-A042-E239-17FF-3471B6907EEB">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:26:59 UTC</createdTime>
+<generatorID>2D2D460F-AC84-AC31-57F4-0FFB01508D22</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<referedAttribute>0E4E12BC-F5F4-E424-6A67-C27910CE7786</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="496C8DA9-F0F5-4903-775A-5305EDCE7911">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:53:17 UTC</createdTime>
+<generatorID>2D2D460F-AC84-AC31-57F4-0FFB01508D22</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<referedAttribute>1CCA0889-A738-5C7B-6D2C-B870A3437BE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

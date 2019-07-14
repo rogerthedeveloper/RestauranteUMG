@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C57B15F-A7F2-5849-48FF-038147A385C3" name="consumicion">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 15:50:25 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0E4E12BC-F5F4-E424-6A67-C27910CE7786">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 15:53:03 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1CCA0889-A738-5C7B-6D2C-B870A3437BE2">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 17:15:10 UTC</createdTime>
+<generatorID>366AE2E1-665B-2309-2F3D-D90ABE2139A0</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<referedAttribute>0B69DD14-AF54-75FE-D6A8-56356754E50C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="17B0C794-9696-CED4-B5C6-03A3E6C750B1">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 15:53:06 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="250788D3-4CD7-1B21-B3E4-A7429C59646C">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 16:26:11 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="875DB148-5405-2A50-664B-ACCD9E3444F6" name="consumision PK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 15:54:32 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="A5E63C13-00EC-346C-8208-6F6387A363F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E4E12BC-F5F4-E424-6A67-C27910CE7786</attributeRef>
+<attributeRef>1CCA0889-A738-5C7B-6D2C-B870A3437BE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

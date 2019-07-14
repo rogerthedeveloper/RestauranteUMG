@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="936539F8-0204-80C6-F47D-744F44F3643F" name="almacen">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 14:41:33 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="2F4D1D98-FA75-F26D-4346-0E8EA511BAD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ingrediente_id" id="D89E104F-6468-7968-8688-AB3BBDA10955">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 14:41:38 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="2F4D1D98-FA75-F26D-4346-0E8EA511BAD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B30B2CD6-7FAC-6667-1C5E-4134E4C321D6">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 14:42:41 UTC</createdTime>
+<generatorID>143934BB-00BC-1019-DBA5-2B10B75785B9</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="2F4D1D98-FA75-F26D-4346-0E8EA511BAD0" value="true"/>
+</engineerTo>
+<referedAttribute>0B69DD14-AF54-75FE-D6A8-56356754E50C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="45299261-3244-5D6C-3EBC-3C997D39E9D6">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 14:41:40 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="2F4D1D98-FA75-F26D-4346-0E8EA511BAD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="2C8E9B17-EC88-5947-5408-F993678F645E">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 14:41:43 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="2F4D1D98-FA75-F26D-4346-0E8EA511BAD0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="605FCB0E-CC6C-CF68-63F3-C1D166581271" name="almacen PK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 14:41:57 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="2F4D1D98-FA75-F26D-4346-0E8EA511BAD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D89E104F-6468-7968-8688-AB3BBDA10955</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

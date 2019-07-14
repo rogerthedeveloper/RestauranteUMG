@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FC50211-5C5B-AEDD-1247-D0168492BCC7" name="mesa_orden">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>76FD8E62-F296-290C-4DF4-4CF328D77024</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B23CF6A4-488E-8413-56A8-4031C69C2AEF">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>B62BBEC4-93AF-3EA6-F84D-724652EB5B83</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesa_reserva_id" id="3A19C243-AC9C-E2F1-936A-0638215BB2CD">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>CAB8557F-B130-0088-F334-B405C9B04E9D</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C485674-54EC-3587-E09B-5E12AE4AE8FA" referredColumn="0F9A521A-9EF8-D39A-FC58-2B36F9C1EF0F"/>
+</associations>
+</Column>
+<Column name="estado_orden_id" id="E5F2E3EB-5187-30D2-4EA6-6D61E60F9CCA">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>ED063392-1F8F-A9C6-E5DD-8AD7ECB42775</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A2B3724-FD03-E56C-7BD4-A4147065619B" referredColumn="6EE1AC37-FC9C-D361-970D-96AB3282F78F"/>
+</associations>
+</Column>
+<Column name="comentarios" id="E014DB3A-3918-1C6B-1644-C1218FCCCC84">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>0A6C9AC8-31B2-5E56-BCA9-4A87B8F59C67</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B5A6EDB-D74D-6B8A-728D-F1A928951722" name="mesa_orden_PK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>482A044E-C25D-0436-A315-32E0E203FAA6</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23CF6A4-488E-8413-56A8-4031C69C2AEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="535DB33B-F241-B589-AF25-894CAE092CC6" name="mesa_orden_mesa_reserva_FK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>A6DBE852-05F6-E793-DC6C-4EC73B3E3C04</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A19C243-AC9C-E2F1-936A-0638215BB2CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3AC0389-B1BC-2D7D-7FD2-FCD7C9710D27" name="mesa_orden_estado_orden_FK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>C6A43991-75BA-E62D-5E78-D251CCCBC9A6</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F2E3EB-5187-30D2-4EA6-6D61E60F9CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

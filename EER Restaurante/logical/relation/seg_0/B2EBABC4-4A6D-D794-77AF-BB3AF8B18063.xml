@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="B2EBABC4-4A6D-D794-77AF-BB3AF8B18063">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 17:37:49 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="287EB126-706F-A652-F808-CF0E89C5B863" value="true"/>
+</engineerTo>
+<sourcePk>482A044E-C25D-0436-A315-32E0E203FAA6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76FD8E62-F296-290C-4DF4-4CF328D77024</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2FB287E-3754-1D2A-3F97-72710E3E3173</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

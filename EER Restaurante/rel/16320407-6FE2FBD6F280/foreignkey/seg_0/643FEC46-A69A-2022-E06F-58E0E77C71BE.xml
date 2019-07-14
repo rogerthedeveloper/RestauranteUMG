@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="643FEC46-A69A-2022-E06F-58E0E77C71BE" containerWithKeyObject="D950FB38-7264-23FB-EFD5-8432FCFFA969" localFKIndex="B7745000-9D89-121E-2BB0-5A1F9D4B73CC" name="mesa_restaurante_FK">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 21:54:18 UTC</createdTime>
+<generatorID>48842111-0EBF-A7DB-FF7C-A5B488037433</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>88129900-65EC-D436-B6FD-43937CF293D8</referredTableID>
+<keyObject>39420528-2850-0E02-74C9-9052FEE8D569</keyObject>
+<referredKeyID>39420528-2850-0E02-74C9-9052FEE8D569</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05C6EC1C-AD86-8E5C-6CFA-8E9745BC00EC" name="mesa">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:36:37 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="03D6E332-F396-FA5A-FEAC-D6EE935788CC">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:36:42 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="1B38DCE8-902D-11A7-C0B6-2F95955C7DDF">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-02 15:27:06 UTC</createdTime>
+<generatorID>48842111-0EBF-A7DB-FF7C-A5B488037433</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>0B69DD14-AF54-75FE-D6A8-56356754E50C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="83D2E730-14B8-8CBB-9936-4375E957E318">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-05-31 17:25:39 UTC</createdTime>
+<generatorID>15448110-A01B-ED22-CB4E-C124D3A72D7A</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>11C4ADE5-5227-9A54-EBA1-579F6C403449</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="C7496ECE-1065-557E-1DB6-612EC3C96417">
+<createdBy>Jeffrey</createdBy>
+<createdTime>2016-06-03 19:38:18 UTC</createdTime>
+<generatorID>45187591-7DD3-D5D3-2D39-CB3FA23DB153</generatorID>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<referedAttribute>2B9B3C81-F71A-7E94-7590-F40075D436CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_sillas" id="CE041239-15C7-7502-9FED-1C61D1A81DE8">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:36:46 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBAC21AC-5632-2284-AFFA-503B2E7CC263" name="mesa PK">
+<createdBy>RSpro</createdBy>
+<createdTime>2016-05-27 20:40:23 UTC</createdTime>
+<ownerDesignName>EER Restaurante</ownerDesignName>
+<engineerTo>
+<item key="16320407-191F-452E-BD4B-6FE2FBD6F280" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03D6E332-F396-FA5A-FEAC-D6EE935788CC</attributeRef>
+<attributeRef>1B38DCE8-902D-11A7-C0B6-2F95955C7DDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
